@@ -1,19 +1,20 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "caddy",
-  "title": "Caddy",
-  "description": "helper",
+  "name": "caddy-manager",
+  "title": "Caddy Manager",
+  "description": "Quickly manage Caddy server configurations, including enabling, disabling, reloading, and controlling server states.",
   "icon": "extension-icon.png",
-  "author": "annonim_annonim",
+  "author": "amassdev",
   "categories": [
+    "System",
     "Other"
   ],
   "license": "MIT",
   "commands": [
     {
       "name": "caddy",
-      "title": "caddy",
-      "description": "Super tools for Caddy",
+      "title": "Manage Caddy Server",
+      "description": "A comprehensive tool to manage Caddy server configurations, including enabling configurations, reloading, starting, stopping, and checking the server's status.",
       "mode": "view"
     }
   ],
